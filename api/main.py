@@ -72,12 +72,3 @@ def predict(engine_sequence: EngineSequence):
     risk = "high" if remaining_useful_lifeycles < 30 else ("medium" if remaining_useful_lifeycles < 60 else "low")
     # 8. Return PredictionResponse schema
     return PredictionResponse(predicted_rul=remaining_useful_lifeycles, risk_level=risk)
-
-# 7. Write the Dockerfile
-  # Create a Dockerfile in your project root
-  # Base image -- pythonL3:11-slim
-  # Copy requirements and install dependencies
-  # Copy your project files
-  # Expose port 8000
-  # Set the startup command to run uvicorn
-  
