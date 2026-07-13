@@ -1,6 +1,4 @@
-data/raw/
-data/processed/
-data/features/
+data/
 
 .DS_Store
 
