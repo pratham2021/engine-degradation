@@ -2,8 +2,6 @@ data/raw/
 data/processed/
 data/features/
 
-models/
-
 .DS_Store
 
 __pycache__/
